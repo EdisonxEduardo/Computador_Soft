@@ -1,0 +1,68 @@
+body{
+font-family: 'Times New Roman', Times, serif;
+background-color: #F0F9FF;
+margin: 0;
+text-align: center;
+}
+header{
+background-color: #0F172A;
+color: aliceblue;
+padding: 20px;
+}
+nav {
+  background-color: #0D9488;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 14px; /* Espacio limpio entre cada botón */
+  padding: 14px 20px;
+}
+
+/* Estilo base común a todos los botones */
+.btn-nav {
+  display: inline-block;
+  text-decoration: none;
+  color: #FFFFFF;
+  background-color: rgba(15, 23, 42, 0.35);
+  border: 2px solid transparent;
+  border-radius: 8px;
+  padding: 8px 18px;
+  font-size: 0.95rem;
+  transition: all 0.25s ease;
+}
+
+/* Botón 1: Inicio */
+.btn-inicio {
+  font-family: 'Space Grotesk', sans-serif;
+  border-color: #22D3EE;
+}
+
+.btn-inicio:hover {
+  background-color: #22D3EE;
+  color: #0F172A;
+  transform: translateY(-2px);
+}
+
+/* Botón 2: Sobre mí */
+.btn-sobre-mi {
+  font-family: 'Poppins', sans-serif;
+  border-color: #34D399;
+}
+
+.btn-sobre-mi:hover {
+  background-color: #34D399;
+  color: #0F172A;
+  transform: translateY(-2px);
+}
+
+/* Botón 3: Conócenos */
+.btn-conocenos {
+  font-family: 'Montserrat', sans-serif;
+  border-color: #FBBF24;
+}
+
+.btn-conocenos:hover {
+  background-color: #FBBF24;
+  color: #0F172A;
+  transform: translateY(-2px);
+}
